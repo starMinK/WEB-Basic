@@ -1,47 +1,15 @@
-#round {
-    background: yellow;
+.box {
+    background-color: green;
+    color: white;
+    width: 150px;
+    height: 80px;
+    margin: 40px;
+
+    border: 30px solid blue;
     padding: 20px;
-    border: 5px dotted red;
-    margin: 30px;
-
-    height: 100px;
-    width: 100px;
-    margin: auto;
-    border-radius: 50px;
 }
 
-#round > img {
-    align-content: center;
-}
-
-#solid{
-    border: 3px solid blue;
-}
-#none{
-    border: 3px none blue;
-}
-#hidden{
-    border: 3px hidden blue;
-}
-#dotted{
-    border: 3px dotted blue;
-}
-#dashed{
-    border: 3px dashed blue;
-}
-#double{
-    border: 3px double blue;
-}
-#groove{
-    border: 15px groove yellow;
-}
-#ridge{
-    border: 15px ridge yellow;
-}
-#inset{
-    border: 15px inset yellow;
-}
-#outset{
-    border: 15px outset yellow;
+h2{
+    color: red;
 }
 

@@ -1,15 +1,15 @@
-.box {
-    background-color: green;
-    color: white;
-    width: 150px;
-    height: 80px;
-    margin: 40px;
-
-    border: 30px solid blue;
-    padding: 20px;
+p {
+    background-color: yellow;
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+    border: 20px solid lightgray;
 }
 
-h2{
-    color: red;
-}
-
+#round {
+    border-image: url("../images/border.png") 30 round;
+}#repeat {
+    border-image: url("../images/border.png") 30 repeat;
+}#stretch {
+      border-image: url("../images/border.png") 30 stretch;
+  }

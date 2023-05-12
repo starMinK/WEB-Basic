@@ -2,44 +2,40 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>z-index 프로퍼티</title>
+    <title>리스트로 메뉴 만들기</title>
 </head>
 <style>
-div {
-    position: absolute;
+#menubar {
+    background: olive;
 }
-img {
-    position: absolute;
+#menubar ul {
+    margin: 0;
+    padding: 0;
+    width: 567px;
 }
 
-#spadeA {
-    z-index: -3;
-    left: 10px;
-    top: 20px;
+#menubar ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 15px;
 }
-#spade2 {
-    z-index: 2;
-    left: 40px;
-    top: 30px;
+#menubar ul li a {
+    color: white;
+    text-decoration: none;
 }
-#spade3 {
-    z-index: 3;
-    left: 80px;
-    top: 40px;
-}
-#spade7 {
-    z-index: 7;
-    left: 120px;
-    top: 50px;
+#menubar ul li a:hover {
+    color: violet;
 }
 </style>
 <body>
-<div>
-    <img id="spadeA" src="../images/spade-7.png" width="100" height="140" alt="스페이드A">
-    <img id="spade2" src="../images/spade-7.png" width="100" height="140" alt="스페이드2">
-    <img id="spade3" src="../images/spade-7.png" width="100" height="140" alt="스페이드3">
-    <img id="spade7" src="../images/spade-7.png" width="100" height="140" alt="스페이드7">
-
-</div>
+<nav id="menubar">
+    <ul>
+        <li><a href="1_Home.html">Home</a></li>
+        <li><a href="2_Espresso.html">Espresso</a></li>
+        <li><a href="3_Cappuccino.html">Cappuccino</a></li>
+        <li><a href="#">Cafe Latte</a></li>
+        <li><a href="#">F.A.Q</a></li>
+    </ul>
+</nav>
 </body>
 </html>

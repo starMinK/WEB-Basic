@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>태그선택자</title>
+</head>
+<style>
+	* {
+		color : green;
+	}
+	
+	.warning {
+		color: red;
+	}
+	
+	body .main {
+		background: aliceblue;
+	}
+	
+	.main {
+		background: yellow;
+	}
+	
+	h3, li {
+		color : brown;
+	}
+	
+	#list {
+		background : mistyrose;
+	}
+	
+	ul strong {
+		color : dodgerblue;
+	}
+	
+	div > strong {
+		background: red;
+	}
+	
+	h3:first-letter { /* 가상 클래스 셀렉터*/
+		color: red;
+	}
+	
+	li:hover {
+		background: yellowgreen;
+	}
+</style>
+<body>
+	<h3>Web Programming</h3>
+	<hr>
+	<div>
+		<div class="main">2학기 <strong>학습 내용</strong></div>
+		<ul id="list">
+			<li>HTML5
+			<li><strong>CSS</strong>
+			<li>JAVASCRIPT
+		</ul>
+		</div>
+		<div>60점 이하는 F!</div>
+</body>
+</html>

@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>태그선택자</title>
+    <meta charset="UTF-8">
+    <title>상태 선택자</title>
 </head>
-<style type="text/css">
-	body{
-		background-color: blue;
-	}
-	
-	*{
-		color: red;
-	}
+<style>
+    a:link {
+        color: gray;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: yellow;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: green;
+        text-decoration: underline;
+    }
+
+    a:active {
+        color: red;
+        text-decoration: underline;
+    }
 </style>
 <body>
-	<!-- 바탕 화면에 오렌지색 채우기 -->
-	<h1>안녕하세여?</h1>
-	<p>문단태그</p>
+    <h1><a href="http://www.naver.com">네이버</a></h1>
 </body>
 </html>

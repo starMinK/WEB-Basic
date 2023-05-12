@@ -1,0 +1,15 @@
+.box {
+    background-color: green;
+    color: white;
+    width: 150px;
+    height: 80px;
+    margin: 40px;
+
+    border: 30px solid blue;
+    padding: 20px;
+}
+
+h2{
+    color: red;
+}
+

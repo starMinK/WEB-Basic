@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>z-index 프로퍼티</title>
+</head>
+<style>
+div {
+    position: absolute;
+}
+img {
+    position: absolute;
+}
+
+#spadeA {
+    z-index: -3;
+    left: 10px;
+    top: 20px;
+}
+#spade2 {
+    z-index: 2;
+    left: 40px;
+    top: 30px;
+}
+#spade3 {
+    z-index: 3;
+    left: 80px;
+    top: 40px;
+}
+#spade7 {
+    z-index: 7;
+    left: 120px;
+    top: 50px;
+}
+</style>
+<body>
+<div>
+    <img id="spadeA" src="../images/spade-7.png" width="100" height="140" alt="스페이드A">
+    <img id="spade2" src="../images/spade-7.png" width="100" height="140" alt="스페이드2">
+    <img id="spade3" src="../images/spade-7.png" width="100" height="140" alt="스페이드3">
+    <img id="spade7" src="../images/spade-7.png" width="100" height="140" alt="스페이드7">
+
+</div>
+</body>
+</html>

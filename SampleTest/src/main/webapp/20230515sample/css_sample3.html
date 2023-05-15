@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>표 응용</title>
+</head>
+<link rel="stylesheet" href="./css/css_sample3.css">
+<body>
+<h3 align="center">로그인 양식</h3>
+<hr>
+<table style="background-color: yellow; width: 400px;" align="center" border="1">
+	<thead>
+		<tr align="center">
+			<td colspan="2">
+				<img src="../images/apple.png" width="380" height="110">
+			</td>
+		</tr>
+		<tr align="center">
+			<td colspan="2">회원가입</td>
+		</tr>
+	</thead>
+	<tfoot>
+		<tr style="text-align: center">
+			<td colspan="2">
+				<input type="submit" value="전송">&nbsp;&nbsp;
+				<input type="submit" value="취소">
+			</td>
+		</tr>
+	</tfoot>
+	<tbody>
+		<tr align="center">
+			<td>이름</td>
+			<td><input type="text"></td>
+		</tr>
+		
+		<tr align="center">
+			<td>아이디</td>
+			<td><input type="text"></td>
+		</tr>
+		
+		<tr align="center">
+			<td>비밀번호</td>
+			<td><input type="password"></td>
+		</tr>
+		
+		<tr align="center">
+			<td>비밀번호 확인</td>
+			<td><input type="password"></td>
+		</tr>
+		
+		<tr align="center">
+			<td>성별</td>
+			<td>
+			<input id="man" type="radio" name="gender" value="m">
+			<label for="man">남성</label>
+			<input id="women" type="radio" name="gender" value="f">
+			<label for="women">여성</label>
+			</td>
+		</tr>
+		
+		<tr>
+			<td align="center">국적</td>
+			<td>
+				<input type="text" value="대한민국">
+				<input type="submit" value="국적변경">
+			</td>
+		</tr>
+		
+		<tr>
+			<td align="center">가족사항</td>
+			<td>
+				<input type="checkbox" value="2" checked="checked">부모
+				<input type="checkbox" value="3" checked="checked">형제자매
+				<input type="checkbox" value="4" checked="checked">배우자
+				<input type="checkbox" value="5" checked="checked">자식			
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td>이력서 작성</td>
+			<td><input type="file" size="40"></td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

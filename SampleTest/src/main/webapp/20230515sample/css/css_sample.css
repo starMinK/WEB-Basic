@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+table {
+	border-collapse: collapse;
+}
+
+td, th {
+	text-align: left;
+	padding: 5px;
+	height: 15px;
+	width: 100px;
+}
+
+thead, tfoot{
+	background-color: darkgray;
+	color: yellow;
+}
+
+tbody tr:nth-child(even){
+	background-color: aliceblue;
+}
+
+tbody tr:hover {
+	background-color: pink;
+}

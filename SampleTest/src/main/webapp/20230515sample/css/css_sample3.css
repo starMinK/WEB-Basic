@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+td {
+	border: 1px solid;
+}
+
+input[type=text] {
+	color: red;
+}
+
+input:hover, textarea:hover {
+	background: red;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+	font-size: 120%;
+}

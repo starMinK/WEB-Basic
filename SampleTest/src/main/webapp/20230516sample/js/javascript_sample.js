@@ -1,0 +1,5 @@
+let s1 = "문자열 1";
+let s2 = "문자열 2";
+
+s3 = s1.concat(s2);
+document.writeln(s3 + "<br>");

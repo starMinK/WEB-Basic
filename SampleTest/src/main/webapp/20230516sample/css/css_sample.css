@@ -1,0 +1,52 @@
+.top {
+    margin: 50px auto;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.search_msg {
+    padding: 5px 10px;
+    width: 374px;
+    height: 34px;
+    font-size: 18px;
+    backgroun-color: transparent;
+    border: 0px solid;
+}
+
+.search_result {
+    margin: 30px auto;
+    width: 95%;
+    height: 700px;
+}
+
+.search_result iframe {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+input[type='text']:focus {
+    outline: none;
+}
+
+input[type='button'] {
+    padding: 0;
+    width: 44px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input[type='button']:first-child {
+    color: blue;
+}
+
+input[type='button']:last-child {
+    color: red;
+}

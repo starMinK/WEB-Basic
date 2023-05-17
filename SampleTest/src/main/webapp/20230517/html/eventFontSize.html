@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>이벤트 객체 프로퍼티</title>
+    <!-- 글자를 클릭하면 글자가 2배로 커졌다가 다른 글자를 클릭하면 다시 원래대로 돌아가는 동작을 하는 프로그램 -->
+    <script>
+        var obj = null;
+
+        window.onclick = function(e){
+
+            if(e.target.tagName.toLowerCase() != "li")
+                return;
+
+            e.target.style.fontSize="2em";
+
+            if(obj != null)
+                obj.style.fontSize="1em";
+
+            obj = e.target;// event처리에 대한 객체를 넘겨줍니다.
+        }
+    </script>
+</head>
+<body>
+<h3>이벤트 객체의 프로퍼티를 이용하여 아이템의 2배크기 조절 출력</h3>
+<hr>
+<p>겨울 방학에 하고 싶은 것들</p>
+<ul>
+    <li>자바 정복</li>
+    <li>자바스크립트 완벽 마스터</li>
+    <li>영화관람(50편)</li>
+    <li>JSP 완벽 마스터</li>
+    <li>SpringBoot 마스터</li>
+</ul>
+</body>
+</html>

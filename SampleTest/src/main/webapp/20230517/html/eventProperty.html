@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>이벤트의 디폴트 행동 취소</title>
+    <script src="../../js/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".last-el").click(function(){
+                alert("last-el");
+            });
+            $(".third-cover").click(function(){
+                alert("third-cover");
+                event.stopPropagation();
+            });
+            $(".second-cover").click(function(){
+                alert("second-cover");
+            });
+            $(".first-cover").click(function(){
+                alert("first-cover");
+            });
+        });
+    </script>
+</head>
+<body>
+<h3>이벤트의 디폴트 행동 취소</h3>
+<hr>
+<div class="first-cover">
+    <ul class="second-cover">
+        <li class="third-cover">
+            <div class="last-el">event</div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>계산기 만들기</title>
+    <script>
+        function cal() {
+            var expre = document.getElementById("expre");
+            var result = document.getElementById("result");
+            result.value = eval(expre.value);// 3+4*6
+        }
+    </script>
+</head>
+<body align="center">
+<h3 align="center">계산기 만들기</h3>
+<hr>
+계산하고자 하는 수식을 입력하고 계산 버튼을 누릅니다.
+<br><br>
+<form>
+    식 <input type="text" id="expre" value=""><br>
+    값 <input type="text" id="result" value="0"><br><br>
+    <input type="button" value="계산" onclick="cal()">
+</form>
+</body>
+</html>

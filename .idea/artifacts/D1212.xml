@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="D1212">
+    <output-path>$PROJECT_DIR$/SampleTest/src/main/webapp/WEB-INF/lib</output-path>
+    <root id="root">
+      <element id="dir-copy" path="$PROJECT_DIR$/SampleTest/src/main/webapp" />
+    </root>
+  </artifact>
+</component>

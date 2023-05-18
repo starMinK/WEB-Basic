@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>산수를 풀어 봅시다</title>
+</head>
+<link rel="stylesheet" href="../css/calc.css">
+<script type="text/javascript" src="../js/calc.js"></script>
+<body onload="makeExpression();startTimer()">
+<h3>산수 문제를 풀어 봅시다.</h3>
+문제는 자동으로 생성되며, 30초가 지나면 자동 채점됩니다.
+<div>남은 시간 <span id="clock">0</span></div>
+<hr>
+<form>
+    <table>
+        <tr>
+            <td class="question"></td>
+            <td><input class="answer" type="text" size="8"></td>
+        </tr>
+        <tr>
+            <td class="question"></td>
+            <td><input class="answer" type="text" size="8"></td>
+        </tr>
+        <tr>
+            <td class="question"></td>
+            <td><input class="answer" type="text" size="8"></td>
+        </tr>
+        <tr>
+            <td class="question"></td>
+            <td><input class="answer" type="text" size="8"></td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" onclick="makeExpression();startTimer()">다시</button>
+            </td>
+            <td><span id="score">0</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>이벤트의 디폴트 행동 취소</title>
-    <script src="../../js/jquery-3.5.1.min.js"></script>
+    <script src="../../jq/jquery-3.5.1.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function() {
-            $(".last-el").click(function(){
+        $(document).ready(function () {
+            $(".last-el").click(function () {
                 alert("last-el");
             });
-            $(".third-cover").click(function(){
+            $(".third-cover").click(function () {
                 alert("third-cover");
                 event.stopPropagation();
             });
-            $(".second-cover").click(function(){
+            $(".second-cover").click(function () {
                 alert("second-cover");
             });
-            $(".first-cover").click(function(){
+            $(".first-cover").click(function () {
                 alert("first-cover");
             });
         });
